@@ -538,7 +538,7 @@ server <- function(input, output, session) {
 
   output$project_ui <- renderUI({
     req(rv$projects)
-    choices <- setNames(rv$projects$id, rv$projects$name)
+    choices <- setNames(rv$projects$id, paste0(rv$projects$id, " - ", rv$projects$name))
     selectizeInput("project_ids", "Project(s)",
                    choices  = choices,
                    multiple = TRUE,
