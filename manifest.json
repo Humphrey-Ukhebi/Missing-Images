@@ -266,6 +266,58 @@
         "RemoteSha": "1.2.1"
       }
     },
+    "aws.s3": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "aws.s3",
+        "Type": "Package",
+        "Title": "'AWS S3' Client Package",
+        "Version": "0.3.22",
+        "Authors@R": "c(person(\"Thomas J.\", \"Leeper\", role = \"aut\",\n                    email = \"thosjleeper@gmail.com\",\n                    comment = c(ORCID = \"0000-0003-4097-6326\")),\n             person(\"Boettiger\", \"Carl\", role = \"ctb\"),\n             person(\"Andrew\", \"Martin\", role = \"ctb\"),\n             person(\"Mark\", \"Thompson\", role = \"ctb\"),\n             person(\"Tyler\", \"Hunt\", role = \"ctb\"),\n             person(\"Steven\", \"Akins\", role = \"ctb\"),\n             person(\"Bao\", \"Nguyen\", role = \"ctb\"),\n             person(\"Thierry\", \"Onkelinx\", role = \"ctb\"),\n             person(\"Andrii\", \"Degtiarov\", role = \"ctb\"),\n             person(\"Dhruv\", \"Aggarwal\", role = \"ctb\"),\n             person(\"Alyssa\", \"Columbus\", role = \"ctb\"),\n             person(\"Simon\", \"Urbanek\", role = c(\"cre\", \"ctb\"),\n                    email = \"simon.urbanek@R-project.org\")\n\t     )",
+        "Maintainer": "Simon Urbanek <simon.urbanek@R-project.org>",
+        "Description": "A simple client package for the Amazon Web Services ('AWS') Simple\n    Storage Service ('S3') 'REST' 'API' <https://aws.amazon.com/s3/>.",
+        "License": "GPL (>= 2)",
+        "URL": "https://github.com/cloudyr/aws.s3",
+        "BugReports": "https://github.com/cloudyr/aws.s3/issues",
+        "Encoding": "UTF-8",
+        "Imports": "utils, tools, curl, httr, xml2 (> 1.0.0), base64enc, digest,\naws.signature (>= 0.3.7)",
+        "Suggests": "testthat, datasets",
+        "RoxygenNote": "7.1.0",
+        "NeedsCompilation": "no",
+        "Packaged": "2025-08-18 23:50:23 UTC; rforge",
+        "Author": "Thomas J. Leeper [aut] (ORCID: <https://orcid.org/0000-0003-4097-6326>),\n  Boettiger Carl [ctb],\n  Andrew Martin [ctb],\n  Mark Thompson [ctb],\n  Tyler Hunt [ctb],\n  Steven Akins [ctb],\n  Bao Nguyen [ctb],\n  Thierry Onkelinx [ctb],\n  Andrii Degtiarov [ctb],\n  Dhruv Aggarwal [ctb],\n  Alyssa Columbus [ctb],\n  Simon Urbanek [cre, ctb]",
+        "Repository": "CRAN",
+        "Date/Publication": "2025-08-19 02:50:09 UTC",
+        "Built": "R 4.6.0; ; 2026-04-25 14:59:28 UTC; windows"
+      }
+    },
+    "aws.signature": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "aws.signature",
+        "Type": "Package",
+        "Title": "Amazon Web Services Request Signatures",
+        "Version": "0.6.0",
+        "Date": "2020-06-01",
+        "Authors@R": "c(person(\"Thomas J.\", \"Leeper\",\n                    role = c(\"aut\"),\n                    email = \"thosjleeper@gmail.com\",\n                    comment = c(ORCID = \"0000-0003-4097-6326\")),\n             person(\"Jonathan\", \"Stott\", email = \"jonathan.stott@magairports.com\", role = c(\"cre\", \"aut\")),\n             person(\"Mike\", \"Kaminsky\", email = \"kaminsky.michael@gmail.com\", role = \"ctb\")\n            )",
+        "Description": "Generates version 2 and version 4 request signatures for Amazon Web Services ('AWS') <https://aws.amazon.com/> Application Programming Interfaces ('APIs') and provides a mechanism for retrieving credentials from environment variables, 'AWS' credentials files, and 'EC2' instance metadata. For use on 'EC2' instances, users will need to install the suggested package 'aws.ec2metadata' <https://cran.r-project.org/package=aws.ec2metadata>.",
+        "License": "GPL (>= 2)",
+        "Imports": "digest, base64enc",
+        "Suggests": "testthat (>= 2.1.0), aws.ec2metadata (>= 0.1.6)",
+        "URL": "https://github.com/cloudyr/aws.signature",
+        "BugReports": "https://github.com/cloudyr/aws.signature/issues",
+        "RoxygenNote": "7.1.0",
+        "NeedsCompilation": "no",
+        "Packaged": "2020-06-01 09:51:14 UTC; jon_m",
+        "Author": "Thomas J. Leeper [aut] (<https://orcid.org/0000-0003-4097-6326>),\n  Jonathan Stott [cre, aut],\n  Mike Kaminsky [ctb]",
+        "Maintainer": "Jonathan Stott <jonathan.stott@magairports.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2020-06-01 10:10:02 UTC",
+        "Built": "R 4.6.0; ; 2026-04-25 13:40:04 UTC; windows"
+      }
+    },
     "base64enc": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1685,6 +1737,37 @@
         "RemoteSha": "0.2.0"
       }
     },
+    "pacman": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "pacman",
+        "Type": "Package",
+        "Title": "Package Management Tool",
+        "Version": "0.5.1",
+        "Authors@R": "c(person(\"Tyler\", \"Rinker\", role = c(\"aut\", \"cre\", \"ctb\"),\n        email = \"tyler.rinker@gmail.com\"), person(\"Dason\",\n        \"Kurkiewicz\", role = c(\"aut\", \"ctb\"), email =\n        \"dasonk@gmail.com\"), person(\"Keith\", \"Hughitt\", role =\n        c(\"ctb\")), person(\"Albert\", \"Wang\", role = c(\"ctb\")),\n        person(\"Garrick\", \"Aden-Buie\", role = c(\"ctb\")),\n        person(\"Albert\", \"Wang\", role = c(\"ctb\")),\n        person(\"Lukas\", \"Burk\", role = c(\"ctb\")))",
+        "Depends": "R (>= 3.5.0)",
+        "Imports": "remotes, methods, stats, utils",
+        "Suggests": "BiocManager, knitr, lattice, testthat (>= 0.9.0), XML",
+        "BugReports": "https://github.com/trinker/pacman/issues?state=open",
+        "Description": "Tools to more conveniently perform tasks associated with\n        add-on packages. pacman conveniently wraps library and package\n        related functions and names them in an intuitive and consistent\n        fashion.  It seeks to combine functionality from lower level\n        functions which can speed up workflow.",
+        "License": "GPL-2",
+        "URL": "https://github.com/trinker/pacman",
+        "RoxygenNote": "6.1.1",
+        "NeedsCompilation": "no",
+        "Packaged": "2019-03-11 01:37:03 UTC; trinker",
+        "Author": "Tyler Rinker [aut, cre, ctb],\n  Dason Kurkiewicz [aut, ctb],\n  Keith Hughitt [ctb],\n  Albert Wang [ctb],\n  Garrick Aden-Buie [ctb],\n  Albert Wang [ctb],\n  Lukas Burk [ctb]",
+        "Maintainer": "Tyler Rinker <tyler.rinker@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2019-03-11 11:50:07 UTC",
+        "Built": "R 4.6.0; ; 2026-04-25 13:25:49 UTC; windows",
+        "RemoteType": "standard",
+        "RemotePkgRef": "pacman",
+        "RemoteRef": "pacman",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha": "0.5.1"
+      }
+    },
     "pillar": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -1875,6 +1958,41 @@
         "RemoteRef": "rappdirs",
         "RemoteRepos": "https://cran.rstudio.com",
         "RemoteSha": "0.3.4"
+      }
+    },
+    "remotes": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "remotes",
+        "Title": "R Package Installation from Remote Repositories, Including\n'GitHub'",
+        "Version": "2.5.0",
+        "Authors@R": "c(\n    person(\"Gábor\", \"Csárdi\", , \"csardi.gabor@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Winston\", \"Chang\", role = \"aut\"),\n    person(\"Martin\", \"Morgan\", role = \"aut\"),\n    person(\"Dan\", \"Tenenbaum\", role = \"aut\"),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\n    person(\"Ascent Digital Services\", role = \"cph\")\n  )",
+        "Description": "Download and install R packages stored in 'GitHub', 'GitLab',\n    'Bitbucket', 'Bioconductor', or plain 'subversion' or 'git'\n    repositories.  This package provides the 'install_*' functions in\n    'devtools'. Indeed most of the code was copied over from 'devtools'.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://remotes.r-lib.org, https://github.com/r-lib/remotes#readme",
+        "BugReports": "https://github.com/r-lib/remotes/issues",
+        "Depends": "R (>= 3.0.0)",
+        "Imports": "methods, stats, tools, utils",
+        "Suggests": "brew, callr, codetools, covr, curl, git2r (>= 0.23.0), knitr,\nmockery, pingr, pkgbuild (>= 1.0.1), rmarkdown, rprojroot,\ntestthat (>= 3.0.0), webfakes, withr",
+        "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Config/testthat/edition": "3",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.2.3",
+        "SystemRequirements": "Subversion for install_svn, git for install_git",
+        "NeedsCompilation": "no",
+        "Packaged": "2024-03-17 12:41:55 UTC; gaborcsardi",
+        "Author": "Gábor Csárdi [aut, cre],\n  Jim Hester [aut],\n  Hadley Wickham [aut],\n  Winston Chang [aut],\n  Martin Morgan [aut],\n  Dan Tenenbaum [aut],\n  Posit Software, PBC [cph, fnd],\n  Ascent Digital Services [cph]",
+        "Maintainer": "Gábor Csárdi <csardi.gabor@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2024-03-17 13:20:02 UTC",
+        "Built": "R 4.6.0; ; 2026-04-25 13:12:34 UTC; windows",
+        "RemoteType": "standard",
+        "RemotePkgRef": "remotes",
+        "RemoteRef": "remotes",
+        "RemoteRepos": "https://cran.rstudio.com",
+        "RemoteSha": "2.5.0"
       }
     },
     "rlang": {
@@ -2535,6 +2653,38 @@
         "RemoteSha": "0.57"
       }
     },
+    "xml2": {
+      "Source": "CRAN",
+      "Repository": "https://cran.rstudio.com",
+      "description": {
+        "Package": "xml2",
+        "Title": "Parse XML",
+        "Version": "1.5.2",
+        "Authors@R": "c(\n    person(\"Hadley\", \"Wickham\", role = \"aut\"),\n    person(\"Jim\", \"Hester\", role = \"aut\"),\n    person(\"Jeroen\", \"Ooms\", email = \"jeroenooms@gmail.com\", role = c(\"aut\", \"cre\")),\n    person(\"Posit Software, PBC\", role = c(\"cph\", \"fnd\")),\n    person(\"R Foundation\", role = \"ctb\",\n           comment = \"Copy of R-project homepage cached as example\")\n  )",
+        "Description": "Bindings to 'libxml2' for working with XML data using a simple, \n    consistent interface based on 'XPath' expressions. Also supports XML schema\n    validation; for 'XSLT' transformations see the 'xslt' package.",
+        "License": "MIT + file LICENSE",
+        "URL": "https://xml2.r-lib.org, https://r-lib.r-universe.dev/xml2",
+        "BugReports": "https://github.com/r-lib/xml2/issues",
+        "Depends": "R (>= 3.6.0)",
+        "Imports": "cli, methods, rlang (>= 1.1.0)",
+        "Suggests": "covr, curl, httr, knitr, mockery, rmarkdown, testthat (>=\n3.2.0), xslt",
+        "VignetteBuilder": "knitr",
+        "Config/Needs/website": "tidyverse/tidytemplate",
+        "Encoding": "UTF-8",
+        "RoxygenNote": "7.3.3",
+        "SystemRequirements": "libxml2: libxml2-dev (deb), libxml2-devel (rpm)",
+        "Collate": "'S4.R' 'as_list.R' 'xml_parse.R' 'as_xml_document.R'\n'classes.R' 'format.R' 'import-standalone-obj-type.R'\n'import-standalone-purrr.R' 'import-standalone-types-check.R'\n'init.R' 'nodeset_apply.R' 'paths.R' 'utils.R' 'xml2-package.R'\n'xml_attr.R' 'xml_children.R' 'xml_document.R' 'xml_find.R'\n'xml_missing.R' 'xml_modify.R' 'xml_name.R' 'xml_namespaces.R'\n'xml_node.R' 'xml_nodeset.R' 'xml_path.R' 'xml_schema.R'\n'xml_serialize.R' 'xml_structure.R' 'xml_text.R' 'xml_type.R'\n'xml_url.R' 'xml_write.R' 'zzz.R'",
+        "Config/testthat/edition": "3",
+        "NeedsCompilation": "yes",
+        "Packaged": "2026-01-17 13:03:05 UTC; jeroen",
+        "Author": "Hadley Wickham [aut],\n  Jim Hester [aut],\n  Jeroen Ooms [aut, cre],\n  Posit Software, PBC [cph, fnd],\n  R Foundation [ctb] (Copy of R-project homepage cached as example)",
+        "Maintainer": "Jeroen Ooms <jeroenooms@gmail.com>",
+        "Repository": "CRAN",
+        "Date/Publication": "2026-01-17 16:10:02 UTC",
+        "Built": "R 4.6.0; x86_64-w64-mingw32; 2026-04-25 13:12:44 UTC; windows",
+        "Archs": "x64"
+      }
+    },
     "xtable": {
       "Source": "CRAN",
       "Repository": "https://cran.rstudio.com",
@@ -2605,7 +2755,7 @@
       "checksum": "05bdb783ee6514c8c072e47680af8ff7"
     },
     "app.R": {
-      "checksum": "903ab4a80f26f25f909c266fd78c4caa"
+      "checksum": "e50c7143664c77d04e5c53cb2be4f1b3"
     },
     "README.md": {
       "checksum": "29b5b8aced59be096665372cc6b54bcb"
