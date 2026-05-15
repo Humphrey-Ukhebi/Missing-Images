@@ -682,7 +682,7 @@ server <- function(input, output, session) {
     layout_columns(
       col_widths = c(3, 3, 2, 2, 2),
       value_box("Total Cropcuts",     total_cuts,    showcase = bs_icon("clipboard-data"),  theme = "success"),
-      value_box("Missing Images",     total_missing, showcase = bs_icon("image-x"),         theme = "danger"),
+      value_box("Missing Images",     total_missing, showcase = bs_icon("images"),         theme = "danger"),
       value_box("Affected Farms",     affected,      showcase = bs_icon("house-exclamation"),theme = "warning"),
       value_box("Enumerators Affected", n_enum_issues, showcase = bs_icon("person-x"),     theme = "secondary"),
       value_box("Avg Days Outstanding", avg_days,    showcase = bs_icon("clock-history"),   theme = "info")
