@@ -18,8 +18,6 @@
 #                      "plotly","rlang"))
 # ─────────────────────────────────────────────────────────────────────────────
 
-pacman::p_load(shiny, bslib, bsicons, DT, dplyr, DBI, RPostgres, jsonlite,
-               tidyr, stringr, httr, purrr, writexl, plotly, rlang)
 pacman::p_load(char = c("shiny","bslib","bsicons","DT","dplyr","DBI","RPostgres",
                         "jsonlite","tidyr","stringr","httr","purrr",
                         "writexl","plotly","rlang"))
