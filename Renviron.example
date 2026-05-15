@@ -1,0 +1,16 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .Renviron  –  local development credentials
+#
+# Copy this file to .Renviron (or ~/.Renviron for user-wide settings),
+# fill in your values, then restart R.
+#
+# On Posit Connect: add these same keys under the deployment's
+#   Settings → Vars → Environment Variables panel.
+#   Never commit this file to version control.
+# ─────────────────────────────────────────────────────────────────────────────
+
+DB_HOST=your-database-host.example.com
+DB_PORT=5432
+DB_NAME=your_database_name
+DB_USER=your_db_username
+DB_PASSWORD=your_db_password
